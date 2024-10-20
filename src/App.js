@@ -24,7 +24,8 @@ const addTodo=()=>{
     // 创建新的新代办对象，包含内容喝截止时间
     const newTodos = {text:inputValue,dueTime:dueTime,completed: false}
     // 更新todos数组，将新的待办事项加入
-    setTodos([...todos, newTodos])
+    const updateToDo = [...todos, newTodos]
+    setTodos(sort(updateToDo))
     setInputValue('')
     setTime ('')
   }else{
@@ -33,13 +34,18 @@ const addTodo=()=>{
 }
 const deleteTodo=(index)=>{
   const newTodos = todos.filter((_,i)=>i !==index)
-  setTodos(newTodos)
+  setTodos(sort(newTodos))
 }
 
 const complete = (index)=>{ //点击复选框时触发的函数
   const newTodos = [...todos]
   newTodos[index].completed = !newTodos[index].completed
-  setTodos(newTodos)
+  setTodos(sort(newTodos))
+}
+
+const sort = (todosList)=>{
+  //true 转换为 1，false 转换为 0。所以 a.completed 和 b.completed 实际上被解释为数字 1 或 0
+  return todosList.sort((a,b) => (a.completed - b.completed)) // 未完成的在前，已完成的在后
 }
 
   return(
