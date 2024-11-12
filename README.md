@@ -1,4 +1,8 @@
-# ToDoList_-NewVersion
+# ToDoList_-NewVersion // 任务管理器网站
+
+2024/11/12更新：加入了背景图/时钟/一些标签分类和优先级的选择
+2024/11/12 update: add background pic,clock, tag and priority
+-------------------------------------------
 Chinese:
 	该项目只是练手小项目，new_version比simple_version多了localstorage和checkbox
 	项目叙述：用户可以往list里面添加事件/删除事件，点击checkbox会记录完成状态
