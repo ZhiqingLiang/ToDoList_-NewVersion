@@ -1,23 +1,14 @@
-.list{
-  text-align: center;
-  border: 1px dashed blueviolet;
-  padding: 0.5rem;
-  margin:0 15rem;
+*{
+  margin: 0;
+  padding: 0;
 }
-.list input{
-  margin: 1rem;
-}
-.table{
-  width: 25rem;
-  margin: 0 auto;
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-.table th{
-  padding: 1rem ;
-}
-.tbody td{
-  border: 1px solid black;
-  padding: 0.5rem;
-  
+body{
+  font-family: "黑体","宋体",sans-serif;
+  height: 100vh;
+  background-image: url('./image/bg2.png');
+  background-image: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ 
 }
