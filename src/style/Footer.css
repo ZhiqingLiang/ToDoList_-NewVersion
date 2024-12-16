@@ -1,0 +1,30 @@
+/* Footer 样式 */
+.footer-custom {
+    background-color: #abe0499d;
+    color: white;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .text-center{
+    text-align: center;
+    padding: 0.15rem;
+  }
+  
+  .footer-link {
+    color: #fbfbfb;
+    text-decoration: none;
+    margin: 0 auto;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #40a41f;
+  }
+  
+  .footer-custom p {
+    font-size: 14px;
+
+  }
+  

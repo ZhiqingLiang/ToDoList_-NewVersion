@@ -4,11 +4,9 @@
 }
 body{
   font-family: "黑体","宋体",sans-serif;
-  height: 100vh;
-  background-image: url('./image/bg2.png');
-  background-image: cover;
+  /* height: 100vh; */
+  background-image: url('./image/bg3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
  
 }
